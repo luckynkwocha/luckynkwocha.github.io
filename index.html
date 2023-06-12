@@ -3,14 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="profilepic.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="DESCRIPTION" content="This is the homepage of Lucky Nkwocha" />
     <meta name="KEYWORDS" content="Lucky Nkwocha" />
     <title>Lucky Nkwocha's Homepage</title>
     <style>
       body {
-        background-color: rgb(252, 221, 163);
+        background-color: lightblue;
+      }
+
+      @media only screen and (min-width: 1300px) {
+        body {
+          margin: 0 35rem 0 35rem;
+        }
+      }
+
+      .interest {
+        text-align: center;
       }
 
       a {
@@ -20,21 +30,27 @@
       img {
         width: 30rem;
         height: 30rem;
-        border-radius: 22em;
+        border-radius: 22rem;
       }
     </style>
   </head>
   <body>
-    <h1>Lucky Nkwocha (Software Engineer)</h1>
-    <h3>
-      I'm interested in distributed systems, machine learning and cloud engineering
-    </h3>
-    <img src="./luckynkwocha.jpg" alt="Lucky Nkwocha">
+    <div class="interest">
+      <h1>Lucky Nkwocha (Software Engineer)</h1>
+      <h3>
+        <i>
+          I'm interested in distributed systems, machine learning and cloud
+          engineering
+        </i>
+      </h3>
+      <img src="./luckynkwocha.jpg" alt="Lucky Nkwocha" />
+    </div>
+
     <h2>About Me</h2>
 
     <ul>
       <li>
-        I have deep interest in semicondutor electronics and computer science.
+        I have deep interest in semiconductor electronics and computer science.
       </li>
       <li>
         I love writing code in C/C++ and I swear by their standard libraries.
@@ -44,36 +60,39 @@
       <li>
         My favorite algorithm is the RSA cryptographic encryption algorithm.
       </li>
-      <li>My primary shell is bash.</li>
-      <li>My text editor is Vim.</li>
-      <li>I am all for the obliteration of the Windows operating system.</li>
+      <li>I am a Unix guy at heart - <b>Linux and MacOS</b>.</li>
       <li>
-        I do most of my development in Linux primarily Ubuntu with Gnome DE.
+        I am strongly for the obliteration of the Windows operating system.
       </li>
       <li>
-        I am strongly for the jetissoning of all frontend frameworks. We are
-        better off writing vanilla javascript and decreasing time to first
-        paint.
+        I do most of my development in Linux primarily Ubuntu alongside the
+        Gnome desktop environment.
+      </li>
+      <li>I am quite-versed with Computer Vision, NLP and other state-of-the-art machine learning technologies - Transformers, LSTMs, LLMs.</li>
+      <li>I recently picked up AWS cloud computing; the shege too much but no going back.</li>
+      <li>
+        I am staunchly for the jetissoning of all web frontend frameworks. We
+        are better off writing vanilla javascript and decreasing time to first
+        paint. <b>/s</b>
       </li>
       <li>I identify as a follower of the old ways.</li>
       <li>I am not a fan of social media.</li>
       <li>
         I am always up for a good intellectually stimulating conversation with
-        someone who can match my intellect.
+        someone who can match my intellect. I don't mean this in a rude way.
       </li>
       <li>
-        I have been a chess player for a year short of a decade but I don't
-        think I ever got good at it.
+        I have been a chess player for one year short of a decade but I don't
+        think I ever really got good at it; just plain-ass average.
       </li>
       <li>
-        I am most likely to defeat you in a game of chess still. Apologies and
+        I am very likely to defeat you in a game of chess still. Apologies and
         no apologies.
       </li>
       <li>
-        I'm always looking for new challenges and interesting stuff to keep me
-        occupied.
+        I am a firm proponent of human freedom, libertarianism and social
+        democracy.
       </li>
-      <li>I am a firm proponent of liberalism and social democracy.</li>
       <li>
         I am all for an egalitarian society and the abrogation of social
         hierachies.
@@ -82,29 +101,41 @@
         Nowadays, I deal with fun things like system architecture, networking,
         deep neural networks, compiler construction and operating system design.
       </li>
-      <li>Feel free to send me a message if you need help with anything.</li>
+      <li>Feel free to leave me a message if you need help with anything.</li>
     </ul>
 
     <h2>More..</h2>
 
     <ul>
       <li>
+        My favourite programmers are Bjarne Stroustrup and Linus Torvalds. I
+        love Ken Thompson and Dennis Ritchie too but not as much.
+      </li>
+      <li>I am an advocate for better human living conditions.</li>
+      <li>
         I do a lot of recreational reading because I am interested in knowing a
         lot of stuff.
       </li>
       <li>
-        I love good music. I recently went down the pre 90's rabbit hole; no
+        I love good music. I recently went down the pre 2000's rabbit hole; no
         regrets.
       </li>
-      <li>I conciously make efforts to increase my English vocab.</li>
+      <li>I conciously make efforts to improve my English vocab.</li>
       <li>I recently picked up French and Spanish. Don't ask me why.</li>
-      <li>I read a lot. I have a somewhat utopian dream to spend half my life reading.</li>
+      <li>
+        I read a lot. I have a somewhat utopian dream to spend a huge chunk of
+        my life reading or in front of a screen.
+      </li>
+      <li>
+        I am always looking for new challenges and interesting stuff to keep me
+        occupied.
+      </li>
       <li>
         You can find me lurking around intelligent spaces like Quora and Reddit.
       </li>
       <li>
         I am searching for my significant other, if you have any meaningful
-        information that can aid my search, shoot me an 
+        information that can aid my search, shoot me an
         <a href="mailto:luckyikenkwocha@gmail.com">email</a>.
       </li>
     </ul>
@@ -113,32 +144,53 @@
 
     <ul>
       <li>
-        If you have any questions, get in touch with me via
+        I enjoy teaching if the student is interested in learning, otherwise; I
+        will take a solid pass.
+      </li>
+      <li>
+        There are a plethora of places I would love to travel to but I currently
+        cannot afford them. Working on changing that soon.
+      </li>
+      <li>
+        If you have any question, offer or opportunity that could make my life more interesting, get in touch with me via
         <a href="mailto:luckyikenkwocha@gmail.com">email</a>.
       </li>
-
       <li>
-        If you've an offer, dicussion or opportunity that might make my life
-        more interesting, shoot me an email.
-      </li>
-
-      <li>
-        For the reasons stated above, I will only respond to those proposals
+        For the reason stated above, I will only respond to those proposals
         that are a good match for my schedule and interests.
       </li>
 
       <li>
-        I have both WhatsApp and Telegram. If you know me personally, we
-        probably already connected on WhatsApp. If not, here is my <a href="https://twitter.com/lucky_nkwocha">twitter</a>.</li>
-        <li>
-          You can also connect on <a href="https://www.linkedin.com/in/lucky-nkwocha-5253a118b">linkedin</a>.
-        </li>
+        I have both WhatsApp and Twitter. If you know me personally, we probably
+        already connected on WhatsApp. If not, here is my
+        <a href="https://twitter.com/lucky_nkwocha">twitter</a>.
+      </li>
+      <li>
+        I do have a
+        <a href="https://www.linkedin.com/in/lucky-nkwocha-5253a118b"
+          >linkedin</a
+        >
+        but I never share my thoughts there.
+      </li>
+      <li>
+        I have a poorly written <a href="./blog.html">blog</a> but I have been
+        very lazy to put it in order.
+      </li>
+      <li>
+        I have an
+        <a href="./igbo-english-translation-and-transcription.html"
+          >Igbo-English translation project</a
+        >
+        I am currently working on but I currently do not have the skill to bring it to
+        conclusion.
+      </li>
     </ul>
 
-      <h3>
-        I have a poorly written <a href="./blog.html">blog</a> and I am lazy to
-        put it in order</h3>
-
-    <p><b> Want to support my work? </b> I appreciate your generosity. In my stead, please donate to charitable causes within your locale. You have my utmost gratitude.</p>
+    <h2>Want to support my work?</h2>
+    <p>
+      I appreciate your kindness and generosity. In my stead, please donate to
+      charitable causes within your locale. You have my utmost and sincerest
+      gratitude as you bring ripples of joy and laughter in the lives of others.
+    </p>
   </body>
 </html>
